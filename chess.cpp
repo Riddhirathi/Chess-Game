@@ -22,7 +22,6 @@ string printname(int n) {
 }
 void DisplayBoard()
 {
-    // cout << "\033[2J\033[1;1H";
     system("clear");
     cout << "r\\c ";
     for (int i = 0; i < 8; i++)
